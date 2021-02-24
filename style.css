@@ -61,13 +61,14 @@ table tr:nth-child(2){
 }
 
 .lado-esquerdo{
-    float: left;
+    display: inline-block;
     width:49%;
 }
 
 .lado-direito{
-    float: right;
+    display: inline-block;
     width: 49%;
+    vertical-align: middle;
 }
 
 #rodape{
