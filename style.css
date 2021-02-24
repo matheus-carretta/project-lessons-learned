@@ -50,3 +50,10 @@ table tr:nth-child(2){
 #licoes_a_aprender{
     display: inline-block;
 }
+
+.lado-esquerdo, .lado-direito{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+    line-height: 20px;
+    color: #3F385F;
+}
