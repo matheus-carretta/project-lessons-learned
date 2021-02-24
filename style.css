@@ -56,4 +56,23 @@ table tr:nth-child(2){
     font-size: 20px;
     line-height: 20px;
     color: #3F385F;
+    text-align: justify;
+    padding: 5px;
+}
+
+.lado-esquerdo{
+    float: left;
+    width:49%;
+}
+
+.lado-direito{
+    float: right;
+    width: 49%;
+}
+
+#rodape{
+    padding: 10px;;
+    clear: both;
+    background-color:#718CA0;
+    text-align: center;
 }
