@@ -1,79 +1,84 @@
-body{
-    background-color: rgb(253, 251, 251);
-}
-body{
-    margin: auto;
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:#718CA0;
-    width: 100%;
-    text-align: center;
-    padding: 10px 10px;
+body {
+  margin: auto;
 }
 
-#menu{
-    margin-top: 100px;
-    background-color: #80ABB0;
-    width: 100%;
-    padding: 10px 10px;
-    text-align: center;
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #718CA0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
 }
 
-#menu a{
-    text-decoration: none;
-    padding: 0 20px;
+#menu {
+  margin-top: 100px;
+  background-color: #80ABB0;
+  width: 100%;
+  padding: 10px 10px;
+  text-align: center;
 }
 
-table, table tr, table td{
-    border: 1px solid black;
-    padding: 3px;
+#menu a {
+  text-decoration: none;
+  padding: 0 20px;
 }
 
-table th{
-    border: 3px solid black;
-    padding: 5px;
-}
-table tr:nth-child(2){
-    font-weight: bolder;
-    width: 30%;
+table,
+table tr,
+table td {
+  border: 1px solid black;
+  padding: 3px;
 }
 
-#licoes_aprendidas{
-    display: inline-block;
-    width: 30%;
+table th {
+  border: 3px solid black;
+  padding: 5px;
 }
 
-#licoes_a_aprender{
-    display: inline-block;
+table tr:nth-child(2) {
+  font-weight: bolder;
+  width: 30%;
 }
 
-.lado-esquerdo, .lado-direito{
-    font-family: 'Akaya Telivigala', cursive;
-    font-size: 20px;
-    line-height: 20px;
-    color: #3F385F;
-    text-align: justify;
-    padding: 5px;
+#licoes_aprendidas {
+  display: inline-block;
+  width: 30%;
 }
 
-.lado-esquerdo{
-    display: inline-block;
-    width:49%;
+#licoes_a_aprender {
+  display: inline-block;
 }
 
-.lado-direito{
-    display: inline-block;
-    width: 49%;
-    vertical-align: middle;
+.lado-esquerdo,
+.lado-direito {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+  line-height: 20px;
+  color: #3F385F;
+  text-align: justify;
+  padding: 5px;
 }
 
-#rodape{
-    padding: 10px;;
-    clear: both;
-    background-color:#718CA0;
-    text-align: center;
+.lado-esquerdo {
+  display: inline-block;
+  width: 49%;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+
+#rodape {
+  padding: 10px;
+  clear: both;
+  background-color: #718CA0;
+  text-align: center;
 }
