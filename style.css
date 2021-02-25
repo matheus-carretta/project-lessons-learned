@@ -1,8 +1,5 @@
 body {
   background-color: rgb(253, 251, 251);
-}
-
-body {
   margin: auto;
 }
 
@@ -63,14 +60,6 @@ table tr:nth-child(2) {
   color: #3F385F;
   text-align: justify;
   padding: 5px;
-}
-
-.lado-esquerdo {
-  display: inline-block;
-  width: 49%;
-}
-
-.lado-direito {
   display: inline-block;
   width: 49%;
   vertical-align: middle;
@@ -81,4 +70,13 @@ table tr:nth-child(2) {
   clear: both;
   background-color: #718CA0;
   text-align: center;
+}
+
+#minha_foto{
+  border-radius: 50%;
+}
+
+#img-section{
+  margin-top: 10px;
+  margin-left: 36%;
 }
