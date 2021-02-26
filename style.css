@@ -10,14 +10,14 @@ body {
   background-color: #718CA0;
   width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 #menu {
   margin-top: 100px;
   background-color: #80ABB0;
   width: 100%;
-  padding: 15px 10px;
+  padding: 15px 0px;
   text-align: center;
 }
 
@@ -33,25 +33,70 @@ body {
   transition: 1s;
 }
 
+#img-section {
+  width: 100%;
+  background-color: #B6B6B6;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 38%;
+}
+
+.lado-esquerdo,
+.lado-direito {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+  text-align: justify;
+  padding: 20px 50px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.lado-esquerdo {
+  margin-left: 150px;
+}
+
+.lado-direito {
+  margin-right: 150px;
+}
+
+.lado-esquerdo h1 {
+  line-height: 30px;
+}
+
+.lado-direito p,
+.lado-esquerdo p {
+  line-height: 35px;
+}
+
 #lists {
   background-color: #B6B6B6;
   margin-bottom: 10px;
 }
 
-#licoes_aprendidas{
+#lists h1 {
+  margin-left: -50px;
+}
+
+#licoes_aprendidas {
   margin-left: 310px;
   padding: 10px;
   font-size: 20px;
+  display: inline-block;
+  width: 30%;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   margin-left: 80px;
   padding: 10px;
   font-size: 20px;
-}
-
-#lists h1{
-margin-left: -50px;
+  display: inline-block;
 }
 
 table {
@@ -77,40 +122,6 @@ table tr:nth-child(2) {
   width: 30%;
 }
 
-#licoes_aprendidas {
-  display: inline-block;
-  width: 30%;
-}
-
-#licoes_a_aprender {
-  display: inline-block;
-}
-
-.lado-esquerdo,
-.lado-direito {
-  font-family: 'Akaya Telivigala', cursive;
-  font-size: 20px;
-  line-height: 20px;
-  color: black;
-  text-align: justify;
-  padding: 20px 50px;
-  display: inline-block;
-  width: 30%;
-  vertical-align: middle;
-}
-
-.lado-esquerdo {
-  margin-left: 150px;
-}
-
-.lado-direito {
-  margin-right: 150px;
-}
-
-.lado-direito p, .lado-esquerdo p{
-  line-height: 35px;;
-}
-
 #rodape {
   padding: 2px 0 10px;
   clear: both;
@@ -118,25 +129,13 @@ table tr:nth-child(2) {
   text-align: center;
 }
 
-#rodape p{
+#rodape p {
   font-weight: bolder;
 }
 
-#rodape a{
+#rodape a {
   text-decoration: none;
   font-size: 20px;
   color: #D3D3D3;
   font-weight: bolder;
-}
-
-#minha_foto {
-  border-radius: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 38%;
-}
-
-#img-section {
-  width: 100%;
-  background-color: #B6B6B6;
 }
