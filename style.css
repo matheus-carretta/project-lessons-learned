@@ -54,11 +54,17 @@ body {
 margin-left: -50px;
 }
 
+table {
+  margin-left: 38%;
+  margin-bottom: 10px;
+}
+
 table,
 table tr,
 table td {
   border: 1px solid black;
   padding: 3px;
+  background-color: #80ABB0;
 }
 
 table th {
