@@ -10,20 +10,27 @@ body {
   background-color: #718CA0;
   width: 100%;
   text-align: center;
-  padding: 10px 10px;
+  padding: 10px;
 }
 
 #menu {
   margin-top: 100px;
   background-color: #80ABB0;
   width: 100%;
-  padding: 10px 10px;
+  padding: 15px 10px;
   text-align: center;
 }
 
 #menu a {
   text-decoration: none;
-  padding: 0 20px;
+  padding: 14px 20px;
+  color: inherit;
+}
+
+#menu a:hover {
+  background-color: #B6B6B6;
+  border: 1px solid black;
+  transition: 1s;
 }
 
 table,
@@ -72,14 +79,14 @@ table tr:nth-child(2) {
   text-align: center;
 }
 
-#minha_foto{
+#minha_foto {
   border-radius: 50%;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 38%;
 }
 
-#img-section{
+#img-section {
   width: 100%;
   background-color: #B6B6B6;
 }
