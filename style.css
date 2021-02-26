@@ -64,12 +64,20 @@ table tr:nth-child(2) {
   font-family: 'Akaya Telivigala', cursive;
   font-size: 20px;
   line-height: 20px;
-  color: #3F385F;
+  color: black;
   text-align: justify;
-  padding: 5px;
+  padding: 20px 50px;
   display: inline-block;
-  width: 49%;
+  width: 30%;
   vertical-align: middle;
+}
+
+.lado-esquerdo {
+  margin-left: 150px;
+}
+
+.lado-direito {
+  margin-right: 150px;
 }
 
 #rodape {
