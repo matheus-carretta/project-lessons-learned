@@ -7,7 +7,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #718CA0;
+  background-color: #718ca0;
   width: 100%;
   text-align: center;
   padding: 10px 0;
@@ -15,9 +15,9 @@ body {
 
 #menu {
   margin-top: 100px;
-  background-color: #80ABB0;
+  background-color: #80abb0;
   width: 100%;
-  padding: 15px 0px;
+  padding: 15px 0;
   text-align: center;
 }
 
@@ -27,15 +27,9 @@ body {
   color: inherit;
 }
 
-#menu a:hover {
-  background-color: #B6B6B6;
-  border: 1px solid black;
-  transition: 1s;
-}
-
 #img-section {
   width: 100%;
-  background-color: #B6B6B6;
+  background-color: #b6b6b6;
 }
 
 #minha_foto {
@@ -47,7 +41,7 @@ body {
 
 .lado-esquerdo,
 .lado-direito {
-  font-family: 'Akaya Telivigala', cursive;
+  font-family: Akaya Telivigala, cursive;
   font-size: 20px;
   line-height: 20px;
   color: black;
@@ -76,7 +70,7 @@ body {
 }
 
 #lists {
-  background-color: #B6B6B6;
+  background-color: #b6b6b6;
   margin-bottom: 10px;
 }
 
@@ -109,7 +103,7 @@ table tr,
 table td {
   border: 1px solid black;
   padding: 3px;
-  background-color: #80ABB0;
+  background-color: #80abb0;
 }
 
 table th {
@@ -118,24 +112,30 @@ table th {
 }
 
 table tr:nth-child(2) {
-  font-weight: bolder;
+  font-weight: 700;
   width: 30%;
 }
 
 #rodape {
   padding: 2px 0 10px;
   clear: both;
-  background-color: #718CA0;
+  background-color: #718ca0;
   text-align: center;
 }
 
 #rodape p {
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 #rodape a {
   text-decoration: none;
   font-size: 20px;
-  color: #D3D3D3;
-  font-weight: bolder;
+  color: lightgray;
+  font-weight: 700;
+}
+
+#menu a:hover {
+  background-color: #b6b6b6;
+  border: 1px solid black;
+  transition: 1s;
 }
